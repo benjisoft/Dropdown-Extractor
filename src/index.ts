@@ -33,7 +33,7 @@ dropdowns.each((index, dropdown) => {
 // Save the workbook to an Excel file
 workbook.xlsx.writeFile('dropdown.xlsx')
   .then(() => {
-    console.log('Dropdown options extracted and saved to dropdown.xlsx');
+    console.log('Dropdown options extracted and saved to ../dropdown.xlsx');
   })
   .catch((error) => {
     console.error('Error saving Excel file:', error);
