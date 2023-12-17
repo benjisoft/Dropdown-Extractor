@@ -128,3 +128,9 @@ dist
 .yarn/build-state.yml
 .yarn/install-state.gz
 .pnp.*
+
+# Built JS files
+*.js
+
+# Script exported files
+dropdown.xslx
